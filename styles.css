@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4989316.jpg);
+    background-size:cover;
+    font-family: Georgia, serif;
+    background-repeat:inherit;
+    
+}
+#searchHero{
+    display: block;
+    width: 60%;
+    height: 2rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding-left: 2%;
+    background-color: whitesmoke;
+}
+#main-heading{
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(rgb(56, 64, 91), rgb(166, 242, 239));
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#fav{
+    text-shadow: 1px 1px black;
+    margin-top: 5rem;
+    color:rgb(47, 243, 3);
+    position: absolute;
+    right: 60px;
+    
+}
+.image-size{
+    width: 100px;
+    height:100px;
+    margin-left: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgb(215, 193, 193);
+    overflow: scroll;
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgba(127, 149, 245, 0), rgb(102, 148, 239));
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+#delFav{
+    color: red;
+    font-size: 25px;
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: lightgray;
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
